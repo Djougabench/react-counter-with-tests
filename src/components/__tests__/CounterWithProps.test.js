@@ -1,5 +1,5 @@
 import React from "react"
-import { render, screen, fireEvents, fireEvent } from "@testing-library/react"
+import { render, screen, fireEvent } from "@testing-library/react"
 import CounterWithProps from "../CounterWithProps"
 
 test("Component <CounterWithProps /> - counter starts at 0 and increments (+1) on click", () => {
